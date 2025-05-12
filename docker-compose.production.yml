@@ -11,7 +11,6 @@ services:
       - pg_data:/var/lib/postgresql/data
   backend:
     image: it51/kittygram_backend # Качаем с Docker Hub
-    build: ./backend/
     env_file: .env
     volumes:
       - static:/backend_static
@@ -19,13 +18,11 @@ services:
   frontend:
     image: it51/kittygram_frontend # Качаем с Docker Hub
     env_file: .env
-    build: ./frontend/
     command: cp -r /app/build/. /static/
     volumes:
       - static:/static
   gateway:
     image: it51/kittygram_gateway # Качаем с Docker Hub
-    build: ./nginx/
     env_file: .env
     ports:
       - 9000:80
