@@ -56,4 +56,8 @@ Docker compose
 
 ## Автор: Dmitry Tronin https://github.com/ItFromMurmansk
 
+<<<<<<< HEAD
 [![Main Kittygram workflow](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml)
+=======
+[![Main Kittygram workflow](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml)
+>>>>>>> 8f4b661cc3c057c43070f8454bb9fcebe31f5c6c
