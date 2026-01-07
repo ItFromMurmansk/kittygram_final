@@ -1,5 +1,4 @@
 # Проект Киттиграм - это социальная сеть для любителей котиков.
-Kittygram - социальная сеть, для любителей кошечек
 
 ## Как развернуть
 1. Скачайте docker-compose.yml из репозитория https://github.com/ItFromMurmansk/kittygram_final/docker-compose.yml
@@ -56,8 +55,4 @@ Docker compose
 
 ## Автор: Dmitry Tronin https://github.com/ItFromMurmansk
 
-<<<<<<< HEAD
 [![Main Kittygram workflow](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml)
-=======
-[![Main Kittygram workflow](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ItFromMurmansk/kittygram_final/actions/workflows/main.yml)
->>>>>>> 8f4b661cc3c057c43070f8454bb9fcebe31f5c6c
